@@ -1,0 +1,3 @@
+ var table = document.getElementById("markstbl");
+ mrkd1 = ['Subject Code & Name', 'Maximum Marks', 'Obtained Marks', 'Subject Code & Name', 'Maximum Marks', 'Obtained Marks'];
+ var row1 = table.insertRow(1); for (var i = 0; i < mrkd1.length; i++) { var cell = row1.insertCell(i); cell.innerHTML = mrkd1[i]; } 
